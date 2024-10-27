@@ -1,6 +1,7 @@
 #!/bin/sh
 
-/etc/tcpdump2mqtt/TcpDump2Mqtt &
-sleep 10
+sleep 60
 
-exit 0
+/etc/tcpdump2mqtt/TcpDump2Mqtt &
+
+: exit 0
